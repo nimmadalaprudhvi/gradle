@@ -26,5 +26,5 @@ jobs:
       - name: Build and Publish
         env:
           GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
-          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GRADLE_TOKEN }}
         run: ./gradlew publish --stacktrace --info
