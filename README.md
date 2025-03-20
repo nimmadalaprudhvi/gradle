@@ -1,6 +1,11 @@
-# gradle
+# Create these Secrets in Repo Secrets
 
-create a token add it to action new secret
+AWS_ACCESS_KEY_ID
 
-push  
-l
+AWS_SECRET_ACCESS_KEY
+
+AWS_REGION 
+
+ECR_REPOSITORY_NAME 
+
+ECR_REGISTRY_URI 
